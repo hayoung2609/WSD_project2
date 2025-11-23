@@ -89,7 +89,7 @@ public class BoardDAO {
                 vo.setPassword(rs.getString("password"));
                 vo.setCategory(rs.getString("category"));
                 vo.setContent(rs.getString("content"));
-                vo.setRegdate(rs.getDate("regdate")); // DB 컬럼명 확인 필요
+                vo.setRegdate(rs.getDate("regdate"));
                 vo.setCnt(rs.getInt("cnt"));
             }
         } catch (Exception e) {

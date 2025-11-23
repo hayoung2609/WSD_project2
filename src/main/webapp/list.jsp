@@ -34,7 +34,6 @@
     <tbody>
     <c:forEach items="${list}" var="u">
         <tr>
-            <!-- u.seq -> u.id 로 수정 -->
             <td>${u.id}</td>
             <td>${u.category}</td>
             <td><a href="view.jsp?id=${u.id}">${u.title}</a></td>

@@ -9,7 +9,7 @@ public class JDBCUtil {
         Connection con = null;
         try{
             // mariadb 드라이버
-            Class.forName("com.mariadb.jdbc.Driver");
+            Class.forName("org.mariadb.jdbc.Driver");
             // 와랩 서버 접속
             con= DriverManager.getConnection("jdbc:mariadb://walab.handong.edu:3306/W25_22400011","W25_22400011","Ohd6ec");
         }catch(ClassNotFoundException e){
