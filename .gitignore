@@ -4,7 +4,7 @@ target/
 !**/src/test/**/target/
 
 .kotlin
-!target/W25_22400011_1.war
+!**/target/W25_22400011_1.war
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
