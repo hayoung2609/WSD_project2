@@ -4,7 +4,7 @@ target/*
 !**/src/test/**/target/
 .kotlin
 
-!**/target/*.war
+!/target/*.war
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
