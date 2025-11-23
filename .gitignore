@@ -2,8 +2,8 @@ target/*
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
 .kotlin
+
 !**/target/W25_22400011_1.war
 
 ### IntelliJ IDEA ###
